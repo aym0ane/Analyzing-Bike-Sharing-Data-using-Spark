@@ -1,5 +1,7 @@
 
 # Exploring Usage Patterns and Trends in Bikesharing Data: Insights for Improved Ride-Sharing Experience | Using Apache Spark
+![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/bikesharinganalysis.png)
+
 ## Introduction
 
 Bike-sharing has become a popular mode of transportation in many cities, offering commuters an affordable and eco-friendly alternative to traditional modes of transit. However, as the popularity of bike-sharing services grows, so does the volume of data generated from these services. This presents an opportunity for companies to leverage this data to gain valuable insights into user behavior and preferences.
@@ -63,6 +65,7 @@ NB : Please note that the notebook contains detailed code and visualizations for
 
 
 visualizing Results : 
+![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/routes.JPG)
 
 ### Usage Pattern : 
     
@@ -75,6 +78,7 @@ visualizing Results :
     rides_by_hour.show(24)
 
 visualizing Results : 
+![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/hours.JPG)
 
 #### II - Rides by day of week
     rides_by_dayofweek = df_clean.withColumn('dayofweek', date_format('started_at', 'E'))
@@ -89,6 +93,7 @@ visualizing Results :
     rides_by_dayofweek.show()
 
 visualizing Results : 
+![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/days.JPG)
 
 #### III- Rides by months
  
@@ -101,6 +106,7 @@ visualizing Results :
     rides_by_month.show()
 
 visualizing Results : 
+![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/months.JPG)
 
 
 ## Conclusion
