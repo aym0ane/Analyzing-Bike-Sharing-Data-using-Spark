@@ -10,11 +10,11 @@ This project aims to analyze bike-sharing data using various techniques to extra
 We employ Apache Spark for the analysis process due to its sophisticated capabilities that enable processing large datasets efficiently. The findings from this analysis will aid ride-sharing providers in making informed business decisions related to their marketing strategies or fleet management. Ultimately resulting in a better riding experience for customers utilizing bike sharing within city limits.
 
 ## Table Of Contents
-- [Introduction]()
-- [Apache Spark]()
-- [Data Set]()
-- [Data Analysis]()
-- [Conclusion]()
+- [Introduction](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark#introduction)
+- [Apache Spark](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark#apache-spark)
+- [Data Set](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark#data-set)
+- [Data Analysis](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark#data-analysis)
+- [Conclusion](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark#conclusion)
 
 ## Apache Spark
 
