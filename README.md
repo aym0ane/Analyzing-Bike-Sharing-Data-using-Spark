@@ -65,6 +65,7 @@ NB : Please note that the notebook contains detailed code and visualizations for
 
 
 visualizing Results : 
+
 ![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/routes.JPG)
 
 ### Usage Pattern : 
@@ -78,6 +79,7 @@ visualizing Results :
     rides_by_hour.show(24)
 
 visualizing Results : 
+
 ![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/hours.JPG)
 
 #### II - Rides by day of week
@@ -93,6 +95,7 @@ visualizing Results :
     rides_by_dayofweek.show()
 
 visualizing Results : 
+
 ![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/days.JPG)
 
 #### III- Rides by months
@@ -106,6 +109,7 @@ visualizing Results :
     rides_by_month.show()
 
 visualizing Results : 
+
 ![profile](https://github.com/aym0ane/Analyzing-Bike-Sharing-Data-using-Spark/blob/main/images/months.JPG)
 
 
